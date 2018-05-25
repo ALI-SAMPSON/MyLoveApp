@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    tools:context="com.example.icode.mylove.LoveActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/true_love">
+
+        <!--imageview for love pic-->
+        <!--<ImageView
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" -->
+        android:layout_weight="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="!!!...Welcome Back, My Love...!!!"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="310dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <!--editText for taking input from first partner-->
+        <EditText
+            android:id="@+id/first_partner_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:hint="@string/hint_first_partner"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"/>
+
+        <!--editText for taking input from second partner-->
+        <EditText
+            android:id="@+id/second_partner_name"
+            android:layout_below="@+id/first_partner_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_second_partner"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_below="@+id/second_partner_name"
+            android:id="@+id/calcBtn"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/check_love"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/round_corner_button"
+            android:onClick="onCheckLoveRate"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

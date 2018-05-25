@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccentLight">#FB5081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+
+    <color name="edit_text_color">#1C1C1C</color>
+    <color name="colorGray">#2F2F2F</color>
+    <color name="holo_red_light">#c21f16</color>
+
+    <!--Dashboard Colors-->
+    <color name="colorDeepPurple">#7c4dff</color>
+    <color name="materialgreen">#00bfa5</color>
+    <color name="materialyellow">#FFC107</color>
+    <color name="materialDarkYellow">#FFA000</color>
+
+    <color name="background_color">#fcfcfc</color>
+    <color name="lightgrey">#ededed</color>
+
+</resources>
